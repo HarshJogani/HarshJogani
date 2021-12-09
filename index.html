@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SJ World</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="res.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <div class="nav-a-1">
+                <li class="li1">
+                    <img src="./img/logo.png" alt="">
+                </li>
+            </div>
+            <div class="">
+                <li class="li2">
+                    <div class="burger"></div>
+                    <div class="burger"></div>
+                    <div class="burger"></div>
+                </li>
+            </div>
+            <div class="a3">
+                <li class="li3">
+                    <input type="text" placeholder="Stock ID/Certificate">
+                    <div class="search"><img src="./img/search.svg" alt=""></div>
+                </li>
+            </div>
+            <div class="a4">
+                <li class="li4">
+                    <button class="btn-nav-1"><img src="./img/search.svg" alt="">E-BID</button>
+                </li>
+            </div>
+            <div class="a4 a5">
+                <li class="li4">
+                    <button class=" btn-nav-2"><i class="far fa-file-excel"></i> Upload</li></button>
+            </div>
+        </ul>
+
+        <ul>
+            <div class="a6">
+                <li class="li-1"><img src="./img/inventory-down2.png" alt=""></li>
+            </div>
+            <div class="a7">
+                <li class="li-2">
+                    <button class="btn-nav-3">English</button>
+                </li>
+            </div>
+            <div class="a7">
+                <li class="li-3">
+                    <button class="btn-nav-3">华语</button>
+                </li>
+            </div>
+            <div class="a7">
+                <li class="li-4">
+                    <button class="btn-nav-4">Admin</button>
+                </li>
+            </div>
+            <div class="a7">
+                <li class="li-5"> <button class="btn-nav-4 btn-5">User</button></li>
+            </div>
+            <div>
+                <li class="li-6"><i class="fas fa-bell"></i></li>
+            </div>
+            <div>
+                <li class="li-6"><i class="fas fa-user-circle fa-3x"></i></li>
+            </div>
+        </ul>
+    </div>
+
+    <div id="main">
+        <!-- This is the Sidebar Html -->
+        <div id="sidebar">
+            <ul>
+                <li class="side-li"><a class="side-a" href=""><img class="side-icon" src="./img/home.ico" alt="">
+                        <span class="span">Home</span></a>
+                </li>
+                <li class="side-li"><a class="side-a" href=""><img class="side-icon" src="./img/loupe.png" alt="">
+                        <span class="span">Search</span></a></li>
+                <li class="side-li"><a class="side-a" href=""><img class="side-icon" src="./img/cart-list-black.png"
+                            alt="">
+                        <span class="span">Cartlist</span></a>
+                </li>
+                <li class="side-li"><a class="side-a" href=""><img class="side-icon" src="./img/wish-list-black.png"
+                            alt=""><span class="span">Wishlist</span></a></li>
+                <li class="side-li"><a class="side-a" href=""><img class="side-icon"
+                            src="http://www.sjintelligence.in/site/assets/images/offer-discount-black.png" alt="">
+                        <span class="span">Offer discount</span></a></li>
+                <li class="side-li"><a class="side-a" href=""><img class="side-icon side-a2"
+                            src="http://www.sjintelligence.in/site/assets/images/shld-b.png" alt=""><span
+                            class="span">Short Hold </span></a></li>
+                <li class="side-li"><a class="side-a" href=""><img class="side-icon"
+                            src="http://www.sjintelligence.in/site/assets/images/confirm-order-black.png" alt="">
+                        <span class="span">Confirm Order</span></a></li>
+                <li class="side-li"><a class="side-a" href=""><img class="side-icon"
+                            src="http://www.sjintelligence.in/site/assets/images/di5B.png" alt=""><span
+                            class="span">E-BID</span></a></li>
+                <li class="side-li"><a class="side-a" href=""><img class="side-icon" src="./img/user.svg" alt=""><span
+                            class="span">Profile</span></a>
+                </li>
+                <li class=" side-li"><a class="side-a" href=""><i class="fas fa-info-circle side-icon"></i><span
+                            class="span">Help</span></a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- This html is for tab -->
+        <header id="tab">
+            <ul>
+                <li class="tab-li-1"><a class="tab-a" href="">Result-1 <span class="tab-close">x</span></a></li>
+                <li class="tab-li-1"><i class="fas fa-plus-square"></i></li>
+                <li class="tab-li-2"><a class="tab-a" href="">1823512 <span class="tab-close">x</span></a></li>
+                <li class="tab-li-3"><a class="tab-a" href="">1745211 <span class="tab-close">x</span></a></li>
+                <li class="tab-li-4"><a class="tab-a" href="">1451281 <span class="tab-close">x</span></a></li>
+            </ul>
+        </header>
+
+        <!-- This is for main -->
+        <div class="content">
+
+            <!-- This is left Card -->
+            <div id="left-card">
+                <!-- This is Stone Dettail -->
+                <div class="stone-detail">
+                    <h4 class="heading">Stone Details</h4>
+                    <table>
+                        <tr>
+                            <td class="color1">Stone ID</td>
+                            <td>176631</td>
+                        </tr>
+                        <tr>
+                            <td class="color1">Shape</td>
+                            <td>RBC</td>
+                        </tr>
+                        <tr>
+                            <td class="color1">Carat</td>
+                            <td>1.01</td>
+                        </tr>
+                        <tr>
+                            <td class="color1">Color</td>
+                            <td>G</td>
+                        </tr>
+                        <tr>
+                            <td class="color1">Clarity</td>
+                            <td>VS1</td>
+                        </tr>
+                        <tr>
+                            <td class="color1">Cut-Pol-Sym</td>
+                            <td>EX - EX - EX</td>
+                        </tr>
+                        <tr>
+                            <td class="color1">Fluo.</td>
+                            <td>NON</td>
+                        </tr>
+                        <tr>
+                            <td class="color1">Lab</td>
+                            <td>GIA</td>
+                        </tr>
+                        <tr>
+                            <td class="color1">Cert no.</td>
+                            <td>6217664187</td>
+                        </tr>
+                        <tr>
+                            <td class="color1">Location</td>
+                            <td>MUMBAI</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <!-- This is Price Detail -->
+                <div class="stone-detail Price">
+                    <h4 class="heading">Price Details</h4>
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="line line1">
+                                    <div class="table-img"><img src="./img/rap.png"></div>
+                                    <div class="color1">Rap</div>
+                                </div>
+                                <span>7,100.00</span>
+                            </td>
+                            <td>
+                                <div class="line line2">
+                                    <div class="table-img"><img src="./img/disc.png"></div>
+                                    <div class="color1">Disc</div>
+                                </div>
+                                <span class="red">18.20%</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="line line3">
+                                    <div class="table-img"><img src="./img/ct.png"></div>
+                                    <div class="color1">$/CT</div>
+                                </div>
+                                <span>5,807.80</span>
+                            </td>
+                            <td>
+                                <div class="line line4">
+                                    <div class="table-img"><img src="./img/amt.png"></div>
+                                    <div class="color1">Amount</div>
+                                </div>
+                                <span class="green">8,130.92</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <!--this is  icon  -->
+                <div id="icon">
+                    <div class="img-1"><img class="img-icon" src="./img/cart.png" alt=""></div>
+                    <div class="img-2"><img class="img-icon" src="./img/discount.png" alt=""></div>
+                    <div class="img-3"><img class="img-icon" src="./img/wish.png" alt=""></div>
+                    <div class="img-4"><img class="img-icon" src="./img/hold.png" alt=""></div>
+                    <div class="img-4"><img class="img-icon" src="./img/view.png" alt=""></div>
+                </div>
+
+                <!-- This is Download Media -->
+                <div class="stone-detail">
+                    <h4 class="heading heading2">Download Media <span class="download"><img src="./img/download.png"
+                                alt=""></span></h4>
+                    <div id="icon-down">
+                        <div><img src="./img/download-cert.png" alt=""></div>
+                        <div><img src="./img/dwonload-img.png" alt=""></div>
+                        <div><img src="./img/download-cert.png" alt=""></div>
+                        <div><img src="./img/share.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <!-- This is Center-Card -->
+            <div id="center-card">
+                <iframe _ngcontent-c9="" allowfullscreen="" frameborder="0" height="100%" id="H185-178078"
+                    mozallowfullscreen="" name="ifm"
+                    onerror="this.src='https://sjworld.azureedge.net/site/assets/images/no_img_vid_diamond.png';"
+                    webkitallowfullscreen="" width="100%"
+                    src="https://thnk18.azureedge.net/img/images/Vision360.html?d=H185-178078&amp;sv=0&amp;btn=0&amp;z=0"
+                    class="ng-star-inserted" style="height: 500px; border-radius: 4px;">
+                </iframe>
+                <div class="photo">
+                    <img src="./img/photosNew.png" alt="">
+                </div>
+                <div class="table t1">
+                    <div id="table-con">
+                        <table id="table1">
+                            <tr class="border">
+                                <td class="table-heading" colspan="2"><strong>SGP</strong></td>
+                            </tr>
+                            <tr>
+                                <td class="color1">Milky</td>
+                                <td><strong>NON</strong></td>
+                            </tr>
+                            <tr>
+                                <td class="color1">Shade</td>
+                                <td><strong>NON</strong></td>
+                            </tr>
+                            <tr>
+                                <td class="color1">Eye Clean</td>
+                                <td><strong>100.00</strong></td>
+                            </tr>
+                        </table>
+                        <!--  -->
+                        <table id="table2">
+                            <tr>
+                                <td colspan="2">
+                                    <div class="yellow yellow2 y3">
+                                        <strong>All Inclusion</strong>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="yellow">
+                                        <small>Table Black</small>
+                                        <strong>NON</strong>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="yellow yellow2">
+                                        <small>Table Inclusion</small>
+                                        <strong>FR 1</strong>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="yellow">
+                                        <small>Table Open</small>
+                                        <strong>NON</strong>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="yellow">
+                                        <small>Side Open</small>
+                                        <strong>NON</strong>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="yellow yellow2">
+                                        <small>Side Black</small>
+                                        <strong>SBP1</strong>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="yellow yellow2">
+                                        <small>Side Inclusion</small>
+                                        <strong>CLD1</strong>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="yellow yellow2">
+                                        <small>Gridle Open</small>
+                                        <strong>NON</strong>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="yellow">
+                                        <small>Pavillion Open</small>
+                                        <strong>NON</strong>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="yellow">
+                                        <small>Extra Facet</small>
+                                        <strong>NON</strong>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="yellow">
+                                        <small>Red Spot</small>
+                                        <strong>NON</strong>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div>
+                        <p class="para">SGP Comment</p>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <!-- This is Right Card -->
+            <div id="right-card">
+                <div class="stone-detail">
+                    <h4 class="heading">Proportions</h4>
+                    <div class="dim-img"><img src="./img/dim.jpg" alt=""></div>
+                    <div class="dim-img2"><img src="./img/detail.jpg" alt=""></div>
+                    <table class="table">
+                        <tr>
+                            <td class="color1 c1">Key to Sym.</td>
+                            <td> CRYSTAL, FEATHER, NATURAL</td>
+                        </tr>
+                        <tr>
+                            <td class="color1 c1">Comment</td>
+                            <td>-</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <!-- This is Certificate -->
+                <div class="stone-detail">
+                    <h4 class="heading heading2">Certificate<span class="download d2"><img src="./img/maximize.png"
+                                alt=""></span></h4>
+                    <div class="dim-img3"><img src="./img/certificate.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,564 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Poppins;
+    background-color: rgb(221 221 221);
+    overflow: hidden;
+}
+
+#main {
+    display: flex;
+}
+
+.display {
+    display: block !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* This is For Navabar */
+.navbar {
+    background: linear-gradient(to right, #22295d 0, #273260 51%, #3e4668 100%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+#span {
+    display: none;
+}
+
+.navbar ul div {
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-a-1 {
+    background-color: #ffffff;
+    width: 66px;
+    height: 66px;
+}
+
+.nav-a-1 li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+}
+
+.burger {
+    width: 30px;
+    height: 5px;
+    background-color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.li2 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+
+.a3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li3 {
+    border: 1px solid white;
+    display: flex;
+}
+
+.li3 input {
+    padding: 8px;
+    border: none;
+    background: transparent;
+    font-family: Poppins;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+.search {
+    background: #d6d4e6;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px !important;
+    cursor: pointer;
+}
+
+.a4 {
+    margin-left: 15px;
+}
+
+.a4 li {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a5 {
+    margin-left: 0px;
+}
+
+.download img {
+    cursor: pointer;
+}
+
+.btn-nav-1 {
+    cursor: pointer;
+    padding: 9px 12px;
+    font-size: 15px;
+    background-color: #d6d4e6;
+    border: 1px solid #ebeff2;
+}
+
+.btn-nav-2 {
+    cursor: pointer;
+    padding: 9px 12px;
+    font-size: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.btn-nav-1 img {
+    width: 14px;
+    margin-right: 5px;
+}
+
+.a6 {
+    display: flex;
+    align-items: center;
+}
+
+.a6 li {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.a6 li img {
+    width: 25px;
+    display: flex;
+}
+
+.a7 {
+    display: flex;
+    align-items: center;
+}
+
+.btn-nav-3 {
+    padding: 4px;
+    background: #fff;
+    border: none;
+    color: #22295d;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-nav-4 {
+    padding: 7px 12px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-5 {
+    background-color: white;
+    color: #22295d;
+    margin-left: -9px;
+}
+
+.li-6 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* This is Font Awesome css */
+.fa-bell {
+    color: white;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.fa-user-circle {
+    color: white;
+    backface-visibility: hidden;
+    cursor: pointer;
+}
+
+/*  This is the SideBar css */
+#sidebar {
+    width: 175px;
+    height: 93vh;
+    background-color: #ffffff;
+    position: relative;
+}
+
+#sidebar2 {
+    height: 93vh;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.side-icon {
+    width: 19px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.side-li :hover {
+    transition: 0.4s;
+    background-color: #22295d;
+    color: white;
+}
+
+.side-a2 {
+    width: 25px;
+}
+
+.side-a {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.fa-info-circle {
+    color: black;
+}
+
+/* This is for Header */
+#tab {
+    margin-left: 5px;
+    margin-top: 8px;
+    position: relative;
+}
+
+#tab ul {
+    display: flex;
+}
+
+#tab ul li {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.tab-a {
+    background-color: white;
+    padding: 4px 5px;
+    border-radius: 3px;
+}
+
+.tab-close {
+    background: #273260;
+    color: white;
+    padding: 1.1px 4.5px;
+    display: inline-flex;
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    width: 7px;
+    font-size: 13px;
+}
+
+.fa-plus-square {
+    font-size: 24px;
+    margin-top: -1px;
+    color: rgba(34, 41, 93, .85);
+    cursor: pointer;
+}
+
+/* This is for main Content */
+.content {
+    height: 88%;
+    position: absolute;
+    top: 100px;
+    left: 185px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/* This is for Left card */
+#left-card {
+    width: 480px;
+    padding: 10px 10px 0;
+}
+
+.stone-detail {
+    background: #fff;
+    width: 100%;
+    display: inline-block;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    margin-bottom: 0.5em;
+}
+
+.heading {
+    border-bottom: 1px solid #ddd;
+    display: inline-block;
+    width: 100%;
+    padding: 8px;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+}
+
+.stone-detail table {
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0px 6px;
+}
+
+.stone-detail table tr td {
+    padding: 1px 0px;
+}
+
+.color1 {
+    color: #737373;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.red {
+    color: red !important;
+}
+
+.green {
+    color: #26a500 !important;
+}
+
+.line {
+    border-bottom: 1px solid #737373;
+    display: flex;
+}
+
+.line .color1 {
+    margin-left: 10px;
+}
+
+.line1 {
+    width: 30%;
+}
+
+.line2 {
+    width: 23%;
+}
+
+.line3 {
+    width: 33%;
+}
+
+.line4 {
+    width: 34%;
+}
+
+#icon {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.img-icon {
+    background-color: #22295d;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.heading2 {
+    display: flex;
+}
+
+.download {
+    width: 69%;
+    text-align: end;
+}
+
+#icon-down {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+#icon-down div {
+    margin-left: 10px;
+}
+
+#icon-down div img {
+    cursor: pointer;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/* This Right card */
+#right-card {
+    width: 490px;
+    padding: 10px 10px 0;
+}
+
+.dim-img {
+    text-align: center;
+}
+
+.dim-img img {
+    width: 380px;
+    height: 215px;
+}
+
+.dim-img2 {
+    text-align: center;
+}
+
+.dim-img2 img {
+    width: 189px;
+    height: 149px;
+}
+
+.c1 {
+    font-size: 12px !important;
+}
+
+.d2 {
+    width: 80%;
+}
+
+.table {
+    font-size: 12px !important;
+    font: 100 !important;
+}
+
+.dim-img3 {
+    text-align: center;
+}
+
+.dim-img3 img {
+    width: 238px;
+    height: 184px;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/* this is center card */
+
+#center-card {
+    width: 840px;
+    height: 720px;
+    background: #fff;
+    display: inline-block;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    margin-top: 10px;
+}
+
+#table-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+#table1 {
+    width: 114px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.para {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: gray;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#table2 {
+    width: 80%;
+}
+
+.table-heading {
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    border-bottom: 1px solid #ddd !important;
+}
+
+.yellow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    background: #f0f0f0;
+    justify-content: center;
+    height: 100%;
+    padding: 0.5px 4px;
+    cursor: pointer;
+}
+
+.yellow2 {
+    background-color: #fb0 !important;
+}
+
+.y3 {
+    padding: 8px 4px !important;
+}
+
+.photo img {
+    width: 30px;
+}
+
+.photo {
+    border: .5px solid #d7d7d7;
+    display: inline-flex;
+    padding: 6px;
+    border-radius: 4px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.t1 {
+    margin-top: 10px;
+}
